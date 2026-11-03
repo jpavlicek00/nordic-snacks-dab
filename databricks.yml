@@ -13,18 +13,18 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://https://dbc-60e07a8c-18dc.cloud.databricks.com/editor/files/1354610321119258?o=7474659380157241.cloud.databricks.com
+      host: https://dbc-60e07a8c-18dc.cloud.databricks.com
   test:
     mode: production
     variables:
       env: test
     workspace:
-      host: https://https://dbc-60e07a8c-18dc.cloud.databricks.com/editor/files/1354610321119258?o=7474659380157241.cloud.databricks.com
+      host: https://dbc-60e07a8c-18dc.cloud.databricks.com
       root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/test
   prod:
     mode: production
     variables:
       env: prod
     workspace:
-      host: https://https://dbc-60e07a8c-18dc.cloud.databricks.com/editor/files/1354610321119258?o=7474659380157241.cloud.databricks.com
+      host: https://dbc-60e07a8c-18dc.cloud.databricks.com
       root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/prod
